@@ -1,0 +1,9 @@
+[project]
+name = "crumsort_wasm"
+version = "0.2.1"
+keywords = []
+dependencies = ["wasmer", "wasmer_compiler_cranelift"]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"

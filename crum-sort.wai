@@ -1,0 +1,32 @@
+// crumsort.wai
+
+/// Unstably sorts the slice.
+///
+/// # Examples
+///
+/// ```
+/// use crumsort::ParCrumSort;
+///
+/// let mut vals = [5, 4, 1, 3, 2];
+///
+/// vals.par_crumsort();
+///
+/// assert_eq!(vals, [1, 2, 3, 4, 5]);
+/// ```
+
+// UInt8Array
+par-crumsort-u8: func(arr: list<u8>) -> list<u8>
+// UInt16Array
+par-crumsort-u16: func(arr: list<u16>) -> list<u16>
+// UInt32Array
+par-crumsort-u32: func(arr: list<u32>) -> list<u32>
+// BigUInt64Array
+par-crumsort-u64: func(arr: list<u64>) -> list<u64>
+// Int8Array
+par-crumsort-i8: func(arr: list<s8>) -> list<s8>
+// Int16Array
+par-crumsort-i16: func(arr: list<s16>) -> list<s16>
+// Int32Array
+par-crumsort-i32: func(arr: list<s32>) -> list<s32>
+// BigUInt64Array
+par-crumsort-i64: func(arr: list<s64>) -> list<s64>

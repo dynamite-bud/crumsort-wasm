@@ -1,0 +1,2 @@
+include crumsort_wasm/py.typed
+include crumsort_wasm/bindings/crum_sort/*.wasm

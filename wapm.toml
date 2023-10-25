@@ -1,0 +1,13 @@
+[package]
+name = "dynamite-bud/crumsort-wasm"
+version = "0.2.1"
+description = "Crumsort from Google made for WASM"
+
+[[module]]
+name = "crumsort-wasm"
+source = "crumsort_wasm.wasm"
+
+[module.bindings]
+wai-version = "0.2.0"
+exports = "crum-sort.wai"
+
