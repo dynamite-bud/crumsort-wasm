@@ -1,0 +1,8 @@
+{
+  "dependencies": {},
+  "main": "src/index.js",
+  "name": "@dynamite-bud/crumsort-wasm",
+  "type": "commonjs",
+  "types": "src/index.d.ts",
+  "version": "0.2.1"
+}
